@@ -1,0 +1,98 @@
+
+
+h1{
+  font-family: "Sniglet", sans-serif;
+  font-weight: 400;
+  color: rgb(139, 223, 115);
+  text-align: center;
+  font-size: 80px;
+}
+h2{
+  font-family: "Singlet", sans-serif;
+  font-weight: 400;
+  color: rgb(8, 115, 8);
+  font-size: 30px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(47, 47, 47);
+  
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  width: 70px;
+  height: auto;
+}
+.header{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dino_images{
+  width: 270px;
+  height: auto;
+}
+
+.character-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px
+}
+
+.character-grid a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.character-grid h3{
+  margin-top: 10px;
+  text-align: center;
+}
+
+fieldset label{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(47, 47, 47);
+}
+
+fieldset input[type="radio"] {
+  margin: 0;
+}
+
+.question-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(8, 115, 8);
+}
+
+.question-number{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(8, 115, 8);
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(139, 223, 115);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 999px;
+  border: none;
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Dinosaur Are You?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="Cream.png" alt="Emma G Dino Doodles logo" class="logo"></a>
+
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="quiz.html">Personality Quiz</a>
+      <a href="#" aria-disabled="true">Story Maker</a>
+      <a href="#" aria-disabled="true">Dress Up</a>
+    </nav>
+  </header>
+
+  <main class="quiz-page">
+    <section class="quiz-intro">
+      <p class="eyebrow">Dino Personality Quiz</p>
+      <h1>Which dinosaur are you?</h1>
+      <p>Answer both parts, then what you do and how you interact will combine into your final dinosaur match.</p>
+    </section>
+
+    <form class="quiz-card" id="quizForm">
+      <section class="quiz-part">
+        
+
+        <fieldset>
+          <legend>
+            <span class="question-number">1.</span> 
+            <span class="question-text">What do you do at a hangout?</span>
+          </legend>
+          <label><input type="radio" name="personality1" value="adventurer" required> Start an adventure or suggest going outside</label>
+          <label><input type="radio" name="personality1" value="funMaker"> Make jokes, hype people up, or start a fun activity</label>
+          <label><input type="radio" name="personality1" value="builder"> Build something, fix something, or start a project</label>
+          <label><input type="radio" name="personality1" value="caretaker"> Make sure everyone is okay and has what they need</label>
+          <label><input type="radio" name="personality1" value="aestheticThinker"> Sit somewhere cozy and enjoy the vibe</label>
+          <label><input type="radio" name="personality1" value="chaos"> Stir up playful chaos or start a silly game</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <span class="question-number">2.</span> 
+            <span class="question-text">What's your favorite way to spend free time?</span>
+          </legend>
+          <label><input type="radio" name="personality2" value="adventurer" required> Exploring, hiking, or being outdoors</label>
+          <label><input type="radio" name="personality2" value="funMaker"> Making costumes, singing, or doing something fun</label>
+          <label><input type="radio" name="personality2" value="builder"> Crafting, building, or creating something cool</label>
+          <label><input type="radio" name="personality2" value="caretaker"> Organizing, planning, or helping someone</label>
+          <label><input type="radio" name="personality2" value="aestheticThinker"> Reading, decorating, or enjoying seasonal things</label>
+          <label><input type="radio" name="personality2" value="chaos"> Playing pretend, pranking nicely, or imagining stories</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <span class="question-number">3.</span>
+            <span class="question-text">How do you solve problems?</span>
+          </legend>
+          <label><input type="radio" name="personality3" value="adventurer" required> Jump in and try something</label>
+          <label><input type="radio" name="personality3" value="funMaker"> Make it fun or lighten the mood</label>
+          <label><input type="radio" name="personality3" value="builder"> Build a solution or think it through fast</label>
+          <label><input type="radio" name="personality3" value="caretaker"> Make a checklist and handle it step by step</label>
+          <label><input type="radio" name="personality3" value="aestheticThinker"> Stay calm and think carefully</label>
+          <label><input type="radio" name="personality3" value="chaos"> Get creative, weird, or unexpected</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <span class="question-number">4.</span> 
+            <span class="question-text">What describes your vibe best? </span>
+          </legend>
+          <label><input type="radio" name="personality4" value="adventurer" required> Outdoorsy, energetic</label>
+          <label><input type="radio" name="personality4" value="funMaker"> Funny, bright, expressive</label>
+          <label><input type="radio" name="personality4" value="builder"> Hyper, creative, always moving</label>
+          <label><input type="radio" name="personality4" value="caretaker"> Responsible, caring, organized</label>
+          <label><input type="radio" name="personality4" value="aestheticThinker"> Quiet, aesthetic, thoughtful</label>
+          <label><input type="radio" name="personality4" value="chaos"> Mischievous, clever, chaotic-cute</label>
+        </fieldset>
+      </section>
+
+      <section class="quiz-part">
+
+        <fieldset>
+          <legend>
+            <span class="question-number">5.</span> 
+            <span class="question-text">When you walk into a room full of people, you... </span>
+          </legend>
+          <label><input type="radio" name="social1" value="yellow" required> Jump right in</label>
+          <label><input type="radio" name="social1" value="green"> Warm up slowly</label>
+          <label><input type="radio" name="social1" value="blue"> Stick with one person or a quiet spot</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <span class="question-number">6.</span> 
+            <span class="question-text">Your perfect afternoon looks like...</span>
+          </legend>
+          <label><input type="radio" name="social2" value="yellow" required> Doing something exciting with friends</label>
+          <label><input type="radio" name="social2" value="green"> A mix of quiet and social time</label>
+          <label><input type="radio" name="social2" value="blue"> A cozy solo activity</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <span class="question-number">7.</span> 
+            <span class="question-text">When you're tired, you recharge by...</span>
+          </legend>
+          <label><input type="radio" name="social3" value="yellow" required> Being around fun people</label>
+          <label><input type="radio" name="social3" value="green"> A balance of alone and friend time</label>
+          <label><input type="radio" name="social3" value="blue"> Being alone</label>
+        </fieldset>
+      </section>
+
+      <button class="button" type="submit">Show my dino</button>
+    </form>
+
+    <section class="result-card" id="resultCard" hidden>
+      <p class="eyebrow">Your result</p>
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <button class="secondary-button" id="restartButton" type="button">Try again</button>
+    </section>
+  </main>
+</body>
+</html>
