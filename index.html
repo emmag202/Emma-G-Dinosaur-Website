@@ -3,103 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f4e7">
+  <meta name="description" content="Meet the Emma G Dino Doodles crew and find the dinosaur that matches your vibe.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
-  <title>Dino World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
+  <title>Dino World | Emma G Dino Doodles</title>
 </head>
 <body>
-  <header class="header">
-    <a class="logo" href="index.html"><img src="Cream.png" alt="Emma G Dino Doodles logo" class="logo"></a>
-
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="quiz.html">Personality Quiz</a>
-      <a href="#" aria-disabled="true">Story Maker</a>
-      <a href="#" aria-disabled="true">Dress Up</a>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <div>
-        <h1>Welcome to your dino adventure.</h1>
-        <p>
-          Take a personality quiz, build stories, and design your own dinosaur character.
-          Start with the quiz to find out what kind of dino matches your vibe.
-        </p>
-        
-      </div>
-
-      <div aria-hidden="true">
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </section>
-
-    <section aria-label="Site features">
-      <article>
-        <h2>Dino Personality Quiz</h2>
-        <p>Answer a few fun questions and get matched with a dinosaur personality.</p>
-        <a class="button" href="quiz.html">Take the quiz</a>
-      </article>
-
-      <article>
-        <h2>Make Your Own Story</h2>
-        <p>Coming soon: choose characters, settings, and twists for a dino tale.</p>
-      </article>
-
-      <article>
-        <h2>Dress Up a Dino</h2>
-        <p>Coming soon: pick colors, outfits, and accessories for your dino friend.</p>
-
-      <section>
-        <h2>Meet the Dinosaurs!</h2>
-        <div class="character-grid">
-          <a class="character-grid" href="rexy.html">
-            <img src="Rexy.png" alt="Rexy the T-Rex smiling and waving" class="dino_images">
-            <h3>Rexy</h3>
-          </a>
-          <a class="character-grid" href="billy.html">
-            <img src="_blank" alt="Billy the Brachiosaurus" class="dino_images">
-            <h3>Billy</h3>
-          </a>
-          <a class="character-grid" href="Tracey.html">
-            <img src="_blank" alt="Tracey the Triceratops" class="dino_images">
-            <h3>Tracey</h3>
-          </a>
-           <a class="character-grid" href="Sally.html">
-            <img src="_blank" alt="Sally the Stegosaurus"class="dino_images">
-            <h3>Sally</h3>
-          </a>
-           <a class="character-grid" href="Andy.html">
-            <img src="Andy.png" alt="Andy the Ankylosaurus" class="dino_images">
-            <h3>Andy</h3>
-          </a>
-           <a class="character-grid" href="Penny.html">
-            <img src="_blank" alt="Penny the Parasaurolophus" class="dino_images">
-            <h3>Penny</h3>
-          </a>
-           <a class="character-grid" href="Victor.html">
-            <img src="_blank" alt="Victor the Velociraptor" class="dino_images">
-            <h3>Victor</h3>
-          </a>
-           <a class="character-grid" href="Pam.html">
-            <img src="_blank" alt="Pam the Pterodactyl" class="dino_images">
-            <h3>Pam</h3>
-          </a>
-           <a class="character-grid" href="Cleo.html">
-            <img src="Cleo the Cat.png" alt="Cleo the Cat" class="dino_images">
-            <h3>Cleo</h3>
-          </a>
-        </div>
-      </section>
-      </article>
-    </section>
-  </main>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Emma G Dino Doodles home"><img src="Cream.png" alt="Emma G Dino Doodles"></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="dinos.html">Meet the dinos</a>
+    <a href="quiz.html">Personality quiz</a>
+    <span class="nav-soon">Story maker <span>Soon</span></span>
+    <span class="nav-soon">Dress up <span>Soon</span></span>
+  </nav>
+</header>
+<main>
+  <section class="welcome-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">A little world of big adventures</p>
+      <h1>Welcome to your <span>dino adventure!</span></h1>
+      <p>Meet a crew of one-of-a-kind dinosaurs, discover which one matches your vibe, and get ready for more dino-sized fun.</p>
+      <a class="button" href="quiz.html">Find your dino <span aria-hidden="true">→</span></a>
+      <p class="hero-note">7 questions <span aria-hidden="true">·</span> one very fun result</p>
+    </div>
+    <div class="hero-photo" role="img" aria-label="Dinosaur friends in a sunny prehistoric landscape">
+      <img class="hero-photo" src="Dino group photo.png" alt="All the dinosaurs together with Emma for a group photo">
+    </div>
+  </section>
+  <section class="feature-section" aria-labelledby="adventures-heading">
+    <div class="section-heading"><p class="eyebrow">Pick your adventure</p><h2 id="adventures-heading">There’s dino fun for everyone</h2></div>
+    <div class="feature-grid">
+      <article class="feature-card feature-quiz"><span class="feature-icon" aria-hidden="true">✦</span><p class="card-kicker">Start here</p><h3>Dino Personality Quiz</h3><p>Answer a few fun questions and meet the dinosaur who’s most like you.</p><a class="text-link" href="quiz.html">Take the quiz <span aria-hidden="true">→</span></a></article>
+      <article class="feature-card feature-story"><span class="feature-icon" aria-hidden="true">✎</span><p class="card-kicker">Coming soon</p><h3>Make Your Own Story</h3><p>Choose characters, settings, and twists for a dino tale of your own.</p><span class="text-link disabled-link">The story maker is on its way</span></article>
+      <article class="feature-card feature-dress"><span class="feature-icon" aria-hidden="true">♡</span><p class="card-kicker">Coming soon</p><h3>Dress Up a Dino</h3><p>Pick colors, outfits, and accessories for your new dino friend.</p><span class="text-link disabled-link">The dress-up game is on its way</span></article>
+    </div>
+  </section>
+  <section class="character-section" aria-labelledby="characters-heading">
+    <div class="section-heading"><p class="eyebrow">Your new dino pals</p><h2 id="characters-heading">Meet the dinosaurs!</h2><p>Every dino has a story. Click one to get to know them.</p></div>
+    <div class="character-grid">
+      <a class="character-tile tile-green" href="rexy.html"><img src="Rexy.png" alt="" class="dino-image"><span class="tile-emoji" aria-hidden="true">🦖</span><span class="character-name">Rexy</span><span class="character-kind">T-Rex</span></a>
+      <a class="character-tile tile-blue" href="billy.html"><img src="Billy swimming with background no logo.png" class="dino-image"><span class="character-name">Billy</span><span class="character-kind">Brachiosaurus</span></a>
+      <a class="character-tile tile-pink" href="Tracey.html"><img src="Tracey eating pie.png" alt="" class="dino-image"><span class="tile-emoji" aria-hidden="true">🦕</span><span class="character-name">Tracey</span><span class="character-kind">Triceratops</span></a>
+      <a class="character-tile tile-yellow" href="Sally.html"><img src="Sally Christmas.png" class="dino-image" alt=""></span><span class="character-name">Sally</span><span class="character-kind">Stegosaurus</span></a>
+      <a class="character-tile tile-peach" href="Andy.html"><img src="Andy.png" alt="" class="dino-image"><span class="tile-emoji" aria-hidden="true">🦖</span><span class="character-name">Andy</span><span class="character-kind">Ankylosaurus</span></a>
+      <a class="character-tile tile-lilac" href="Penny.html"><img src="Fairy princess Penny.png" class="dino-image" alt=""></span><span class="character-name">Penny</span><span class="character-kind">Parasaurolophus</span></a>
+      <a class="character-tile tile-mint" href="Victor.html"><img src="Sand castle Victor.png" class="dino-image" alt=""></span><span class="character-name">Victor</span><span class="character-kind">Velociraptor</span></a>
+      <a class="character-tile tile-sky" href="Pam.html"><img src="Vampire Pam.png" class="dino-image" alt=""></span><span class="character-name">Pam</span><span class="character-kind">Pterodactyl</span></a>
+      <a class="character-tile tile-rose" href="Cleo.html"><img src="Cleo the Cat.png" alt="" class="dino-image"><span class="tile-emoji" aria-hidden="true">🐱</span><span class="character-name">Cleo</span><span class="character-kind">Dino-loving cat</span></a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><a href="index.html">Emma G Dino Doodles</a><span>Made for curious dino fans <span aria-hidden="true">✿</span></span></footer>
 </body>
 </html>
